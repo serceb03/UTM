@@ -1,16 +1,19 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
-    int a, b, sum;
+    int a, b, sum, product;
     
     printf("Hello World\n");
-    printf("write first digit: ");
+    printf("Write first digit: ");
     scanf("%d", &a);
-    printf("write second digit: ");
+    printf("Write second digit: ");
     scanf("%d", &b);
+    
     sum = a + b;
-    printf("sum: %d\n", sum);
+    product = a * b;
+    
+    printf("Sum: %d\n", sum);
+    printf("Product: %d\n", product);
     
     return 0;
 }
